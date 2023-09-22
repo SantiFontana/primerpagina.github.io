@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 20px;
+}
+
+img{
+    width: 150px;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(12, 12, 133);
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+}
+
+#carouselExampleControls{
+    width: 100%;
+    height: 100%;
+}
+
+.home{
+    background-color: rgb(145, 218, 36);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color:  rgb(145, 218, 36);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 75%;
+}
+
+.nosotros h1{
+    font-size: 45px;
+    color:greenyellow;
+}
+
+.nosotros p{
+    color: rgb(0, 216, 245);
+    font-size: 22px;
+
+}
+
+.nosotros{
+    background-color: rgb(77, 77, 168);
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color:rgb(145, 218, 36);
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    width: 100%;
+}
+
+#comollegar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
+#comollegar iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+

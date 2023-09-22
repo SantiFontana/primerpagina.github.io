@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>La Atajada</title>
+</head>
+
+<body style="background-color: rgb(145, 218, 36)">
+    <header>
+        <div>
+            <img src="./Imagenes/LA atajada.jpg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+    
+                <a href="#home"><li>HOME</li></a>
+                <a href="#nosotros"><li>NOSOTROS</li></a>
+                <a href="#productos"><li>PRODUCTOS</li></a>
+                <a href="#formulariolink"><li>CONTACTO Y COMO LLEGAR</li></a>
+                
+            </ul>
+         </nav>
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes/Carrusel 1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Carrusel 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Carrusel 3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="home" id="home">
+        <h1>BIENVENIDOS</h1>
+        <p> En La Atajada somos fabricantes de indumentaria deportiva y camisetas deportivas básicas, de diseño y camisetas personalizadas.
+            Trabajamos con la venta de camisetas al por mayor y menor. Realizamos envíos a todo el país.
+            Atención especial a clubes, colegios, countries, e instituciones deportivas de todo el país. </p>
+    </div>
+
+
+
+    <div class="contenedor">
+        <div class="caja">
+            <img src="./Imagenes/Calidad y precio.jpg" alt="Calidad y precio">
+            <h1>Calidad y precio</h1>
+            <p>Siempre encontrará en La Atajada los mejores precios del mercado.</p>
+    
+        </div>
+        <div class="caja">
+            <img src="./Imagenes/Variedad.png" alt="Variedad">
+            <h1>Variedad</h1>
+            <p>Accesorios, Indumentaria, Calzado, Implementos y mucho más…</p>
+
+        </div>
+        <div class="caja">
+            <img src="./Imagenes/Envios.png" alt="Envíos">
+            <h1>Envíos</h1>
+            <p>Realizamos envíos a lo largo y ancho de toda la Argentina. Consulténos sin compromiso de compra.</p>
+
+        </div>
+        <div class="caja">
+            <img src="./Imagenes/Garantia.png" alt="Garantía">
+            <h1>Garantia y confianza</h1>
+            <p>Todos nuestros productos son 100% originales respaldados por las mejores marcas.</p>
+
+        </div>
+        
+
+    </div>
+    <div class="nosotros" id="nosotros">
+        <h1>La Atajada-Distribuidor Mayorista de Articulos Deportivos</h1>
+        <p>Somos La Atajada, desde 1990 y con más de 25 años de trayectoria en el rubro deportes y tiempo libre.
+            Nos dedicamos a la importación, fabricación y comercialización de indumentaria deportiva, calzado y accesorios deportivos proveyendo a infinidad de casas de deportes y comercios en todo el país. Contamos con un área especializada en la atención a clubes, colegios, countries, profesores de educación física, organismos gubernamentales e instituciones educativas y/o deportivas en capital federal y todo el país, armado de presupuestos, licitaciones y pedidos con el objetivo de conseguir resultados satisfactorios a través de nuestra experiencia y gestión.
+            Trabajamos TODO tipo de accesorios y equipamiento para la práctica de TODOS los deportes.</p>
+
+    </div>
+
+    <div class="productos" id="productos">
+        <div class="box">
+            <img src="./Imagenes/Ropa 1.jpg" alt="Pelota 2014">
+            <h1>Pelota Mundial 2014</h1>
+            <div id="contenido">
+                <p>El Adidas Brazuca fue el balón de fútbol oficial usado durante la Copa Mundial de 2014 realizada en Brasil. Fue fabricado por la compañía de equipamiento deportivo Adidas y presentado el 3 de diciembre de 2013, tres días antes que tuviera lugar el sorteo de equipos para los grupos, a pesar de que normalmente es el mismo día del sorteo cuando presentan el nuevo balón para la copa. Lo presentaron en Río de Janeiro en el Parque Lage con efectos de luz en 3D.</p>
+
+            </div>
+            <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+        </div>
+        <div class="box">
+            <img src="./Imagenes/Ropa 2.jpg" alt="Camiseta Madrid">
+            <h1>Camiseta Real Madrid-Temporada 17/18 </h1>
+            <div id="contenido2">
+                <p>El color de estas bandas y el del logo patrocinador es un azul inspirado en el cielo de la ciudad de Madrid. Además, en el bajo de la camiseta se ha incluido un pequeño sello en relieve con los años 1902-2017, como guiño a los 115 años de historia del club.</p>
+
+            </div>
+            <button onclick='muestra_oculta("contenido2")' class="btn btn-primary" form="contenido">+</button>
+        </div>
+
+
+        <div class="box">
+            <img src="./Imagenes/Ropa 3.jpg" alt="Pelota 2016">
+            <h1>Pelota Eurocopa 2016</h1>
+            <div id="contenido3">
+                <p>La Adidas Beau Jeu es uno de los balones oficiales del torneo de la Eurocopa 2016. Se utilizó para la fase de grupos del torneo, después de lo cual fue reemplazado por el Adidas Fracas 1. La frase francesa "Beau Jeu" se traduce como "Beautiful Game" o "bello juego".</p>
+            </div>
+            <button onclick='muestra_oculta("contenido3")' class="btn btn-primary" form="contenido">+</button>
+           
+
+        </div>
+
+    </div>
+
+    <div id="formulariolink">
+        <h1>Formulario de Contacto</h1>
+    </div>
+
+
+    
+
+  
+  <form id="formulario" onsubmit="return validar()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico"><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje"></textarea><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+    
+
+   
+
+
+
+    <div id="comollegar">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2103619576683!2d-58.56431842452486!3d-34.598841757240265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb82f66e57671%3A0xc5270ce4239d85c2!2sAv.%20San%20Mart%C3%ADn%201861%2C%20B1678GPH%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1683605008566!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <footer>
+        <p>Conocé nuestra Política de privacidad | ©2023 La Atajada. Todos los derechos reservados</p>
+    </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
